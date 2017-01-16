@@ -1,0 +1,44 @@
+.bg_s1_qlaira_18 {
+	background-image: url('../../content/img/qlaira/18/18_1.png')
+}
+
+
+.popup_s1_18__0, 
+.popup_s1_18__1, 
+.popup_s1_18__2 {
+  position: absolute;
+  width: 1024px;
+  height: 82px;
+  left: 0;
+  top: 533px;
+  background-size: 100%; 
+  background-repeat: no-repeat;
+}
+
+.popup_s1_18__0 {
+  background-image: url('../../content/img/qlaira/18/18_2.png');             
+}
+
+.popup_s1_18__1 {
+  background-image: url('../../content/img/qlaira/18/18_3.png');             
+}
+
+.popup_s1_18__2 {
+  background-image: url('../../content/img/qlaira/18/18_4.png');             
+}
+
+.btn_s1_18__1 {
+  width: 156px;
+  height: 47px;
+  bottom: 309px;
+  right: 275px; 
+  z-index:9000;  
+}
+
+.btn_s1_18__2 {
+  width: 156px;
+  height: 47px;
+  bottom: 309px;
+  right: 113px;
+  z-index:9000;        
+}

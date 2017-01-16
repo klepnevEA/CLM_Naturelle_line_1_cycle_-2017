@@ -1,0 +1,153 @@
+.bg_s1_qlaira_22 {
+	background-image: url('../../content/img/qlaira/22/22_1.png')
+}
+
+.btn_s1_22 {
+    position: absolute;
+    border: none;
+    width: 51px;
+    height: 51px;
+    background-color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    z-index: 7000;
+    background-image: url('../../content/img/qlaira/22/spline.png');
+}
+
+
+.btn_s1_22__1 {
+  top: 235px;
+  left: 485px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.btn_s1_22__2 {
+  top: 306px;
+  left: 363px;
+  -webkit-transform: rotate(32deg);
+  transform: rotate(32deg);    
+}
+
+.btn_s1_22__3 {
+  top: 450px;
+  left: 365px;
+  -webkit-transform: rotate(-31deg);
+  transform: rotate(-31deg);   
+}
+
+.btn_s1_22__4 {
+  top: 305px;
+  left: 612px;
+  -webkit-transform: rotate(149deg); 
+  transform: rotate(149deg);       
+}
+
+.btn_s1_22__5 {
+  top: 450px;
+  left: 612px;
+  -webkit-transform: rotate(-151deg);
+  transform: rotate(-151deg);    
+}
+
+.btn_s1_22__6 {
+  top: 515px;
+  left: 485px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.btn_s1_22.active {
+  background-position: -64px 0;
+}
+
+.wrapper_s1_22 {
+  position: absolute;
+  width: 465px;
+  height: 174px;
+  overflow: hidden;
+}
+
+.block_s1_22 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-transition: all .5s ease; 
+  -webkit-backface-visibility: hidden;
+}
+
+
+.wrapper_S1_22__1 {
+  top: 176px;
+  left: 29px;
+}
+
+.wrapper_S1_22__2 {
+  top: 352px;
+  left: 29px;
+}
+
+.wrapper_S1_22__3 {
+  top: 499px;
+  left: 29px;
+}
+
+.wrapper_S1_22__4 {
+  top: 176px;
+  left: 525px;
+}
+
+.wrapper_S1_22__5 {
+  top: 352px;
+  left: 525px;
+}
+
+.wrapper_S1_22__6 {
+  top: 499px;
+  left: 525px;
+}
+
+.block_s1_22__1 {
+  left:100%;
+  background-image: url('../../content/img/qlaira/22/22_8.png');  
+}
+
+.block_s1_22__2 {
+  left:100%; 
+  background-image: url('../../content/img/qlaira/22/22_9.png');  
+}
+
+.block_s1_22__3 {
+  left:100%;   
+  background-image: url('../../content/img/qlaira/22/22_10.png');  
+}
+
+.block_s1_22__4 {
+  right:100%;   
+  background-image: url('../../content/img/qlaira/22/22_11.png');  
+}
+
+.block_s1_22__5 {
+  right:100%;   
+  background-image: url('../../content/img/qlaira/22/22_12.png');  
+}
+
+.block_s1_22__6 {
+  right:100%;   
+  background-image: url('../../content/img/qlaira/22/22_13.png');  
+}
+
+.block_s1_22__1.active,
+.block_s1_22__2.active,
+.block_s1_22__3.active {
+  left:0%;
+}
+
+
+.block_s1_22__4.active,
+.block_s1_22__5.active,
+.block_s1_22__6.active {
+  right:0%;  
+}

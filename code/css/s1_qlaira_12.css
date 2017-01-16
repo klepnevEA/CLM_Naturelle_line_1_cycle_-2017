@@ -1,0 +1,22 @@
+.bg_s1_qlaira_12 {
+	background-image: url('../../content/img/qlaira/12/12_1.png')
+}
+
+
+
+.animation_s1_12 {
+  position: absolute;
+  left:-987px;
+  bottom: 190px;
+  width: 987px;
+  height: 116px;
+  background-size: 100%; 
+  background-repeat: no-repeat; 
+  background-image: url('../../content/img/qlaira/12/12_2.png');  
+  -webkit-transition: all 1s ease 1s; 
+  -webkit-backface-visibility: hidden; 
+}
+
+.animation_s1_12.active {
+  left:0px;
+}

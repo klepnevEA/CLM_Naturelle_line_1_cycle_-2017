@@ -1,0 +1,35 @@
+.bg_s1_qlaira_30 {
+	background-image: url('../../content/img/qlaira/30/30_1.png')
+}
+
+.btn_s1_30__1 {
+    width: 71px;
+    height: 71px;
+    top: 358px;
+    left: 462px;
+}
+
+.btn_s1_30__2 {
+    width: 71px;
+    height: 71px;
+    top: 569px;
+    left: 693px;
+}
+
+
+.popup_s1_30__1, .popup_s1_30__2 {
+	width: 996px;
+	height: 728px;
+	top: 100px;
+	left: 17px;
+	background-size: 100%; 
+	background-repeat: no-repeat; 
+}
+
+.popup_s1_30__1 {
+	background-image: url('../../content/img/qlaira/30/30_2.png');        
+}
+
+.popup_s1_30__2 {
+	background-image: url('../../content/img/qlaira/30/30_3.png');        
+}

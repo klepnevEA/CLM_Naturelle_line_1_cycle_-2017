@@ -1,0 +1,23 @@
+.bg_s1_qlaira_44 {
+	background-image: url('../../content/img/qlaira/44/44_1.png')
+}
+
+.btn_s1_44__1 {
+    width: 229px;
+    height: 100px;
+    top: 237px;
+    left: 735px;
+}
+
+.popup_s1_44__1 {
+	width: 871px;
+	height: 602px;
+	top: 100px;
+	left: 56px;
+	background-size: 100%; 
+	background-repeat: no-repeat; 
+}
+
+.popup_s1_44__1 {
+	background-image: url('../../content/img/qlaira/44/44_2.png');        
+}

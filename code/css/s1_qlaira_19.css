@@ -1,0 +1,89 @@
+.bg_s1_qlaira_19 {
+	background-image: url('../../content/img/qlaira/19/19_1.png')
+}
+
+.accordeon_wrapper {
+  position: absolute;
+  width: 963px;
+  min-height: 234px;
+  top: 189px;
+  left: 29px;
+}
+
+.blocks {
+  width: 100%;
+  min-height:72px;
+  margin: 0px 0px 5px;  
+}
+
+.buttons_accordion button {
+ width: 100%;
+ height: 72px;
+ background: -webkit-linear-gradient(left, rgba(171,101,51,1) 0%,rgba(250,212,102,1) 100%); 
+ background: linear-gradient(to right, rgba(171,101,51,1) 0%,rgba(250,212,102,1) 100%); 
+ -webkit-border-radius: 10px;
+ -webkit-border-top-right-radius: 0;
+ border-radius: 10px;
+ border-top-right-radius: 0;
+ border:none;
+ color: #fff;
+ text-align: left;
+ padding: 0px 47px;
+ font-size: 1.3em;
+ line-height: 1.3em; 
+ z-index: 1000;
+ position: relative; 
+}
+
+.buttons_accordion button::before {
+  content: '';
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 15px;
+  right: 20px;
+  z-index: 9000;
+  background-image: url('../../content/img/qlaira/19/spline.png');
+  background-repeat: no-repeat;
+  background-position: 0 -100px;                 
+}
+
+.blocks.active .buttons_accordion button::before {
+ background-position: 0 0px;  
+}
+
+
+.accordeon_bg {
+  position: relative;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.accordeon_bg_1 {
+  background-image:url('../../content/img/qlaira/19/19_3.png'); 
+  height: 176px;           
+}
+
+.accordeon_bg_2 {
+  background-image:url('../../content/img/qlaira/19/19_4.png'); 
+  height: 124px;           
+}
+
+.accordeon_bg_3 {
+  background-image:url('../../content/img/qlaira/19/19_5.png'); 
+  height: 192px;           
+}
+
+.blocks .hidden_blocks {
+  margin-top: 0px;
+  overflow: hidden;
+  max-height:0px; 
+  -webkit-transition: all .5s ease; 
+  -webkit-backface-visibility: hidden;      
+}
+
+.blocks.active .hidden_blocks {
+  max-height:200px;
+  margin-bottom: -10px;  
+}

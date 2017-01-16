@@ -1,0 +1,70 @@
+.bg_s1_qlaira_42 {
+	background-image: url('../../content/img/qlaira/42/42_1.png')
+}
+
+.btn_s1_42__1 {
+    width: 71px;
+    height: 71px;
+    top: 552px;
+    left: 77px;
+}
+
+.btn_s1_42__2 {
+    width: 27%;
+    height: 50px;
+    top: 58px;
+    left: 87px;
+}
+
+.btn_s1_42__3 {
+    width: 27%;
+    height: 50px;
+    top: 58px;
+    left: 353px;
+}
+
+.btn_s1_42__4 {
+    width: 27%;
+    height: 50px;
+    top: 58px;
+    left: 620px;
+}
+
+.btn_s1_42__5 {
+    width: 71px;
+    height: 71px;
+    top: 552px;
+    left: 635px;
+}
+
+
+.popup_s1_42__1, .popup_s1_42__4 {
+	width: 996px;
+	height: 728px;
+	top: 100px;
+	left: 17px;
+	background-size: 100%; 
+	background-repeat: no-repeat; 
+}
+
+.tap_s1_42__1, .tap_s1_42__2, .tap_s1_42__3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.tap_s1_42__1 {
+	background-image: url('../../content/img/qlaira/42/42_2.png');        
+}
+
+.tap_s1_42__2 {
+	background-image: url('../../content/img/qlaira/42/42_3.png');        
+}
+
+.tap_s1_42__3 {
+	background-image: url('../../content/img/qlaira/42/42_4.png');        
+}
+
+.popup_s1_42__4 {
+	background-image: url('../../content/img/qlaira/42/42_5.png');        
+}

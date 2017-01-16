@@ -1,0 +1,35 @@
+.bg_s1_qlaira_50 {
+    background-image: url('../../content/img/qlaira/50/50_1.png')
+}
+
+.btn_s1_50__1 {
+    width: 434px;
+    height: 60px;
+    top: 188px;
+    left: 67px;
+}
+
+.btn_s1_50__2 {
+    width: 434px;
+    height: 60px;
+    top: 188px;
+    left: 502px;
+}
+
+.tap_s1_50__1, .tap_s1_50__2 {
+    position: absolute;
+	width: 879px;
+	height: 443px;
+    top: 189px;
+    left: 62px;
+	background-size: 100%; 
+	background-repeat: no-repeat; 
+}
+
+.tap_s1_50__1 {
+	background-image: url('../../content/img/qlaira/50/50_2.png');        
+}
+
+.tap_s1_50__2 {
+	background-image: url('../../content/img/qlaira/50/50_3.png');        
+}

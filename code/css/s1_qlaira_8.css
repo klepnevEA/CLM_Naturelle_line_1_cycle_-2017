@@ -1,0 +1,163 @@
+.bg_s1_qlaira_8 {
+	background-image: url('../../content/img/qlaira/8/8_1.png')
+}
+
+
+.wrapper_s1_8 {
+  position: absolute;
+  top: 270px;
+  left: 129px;
+  width: 839px;
+  height: 294px;
+}
+
+.colums {
+  position: relative;
+  width: 92px;
+  height: 100%;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.wrapper_s1_8 .colums>div {
+  position: absolute;
+  width:13px;
+  height: 10px;
+  bottom:0px;
+  height:0px; 
+}
+
+.wrapper_s1_8 .column__1>div {
+  -webkit-transition: all 1s ease 1s; 
+  -webkit-backface-visibility: hidden;   
+}
+
+.wrapper_s1_8 .column__2>div {
+  -webkit-transition: all 1s ease 1.5s; 
+  -webkit-backface-visibility: hidden;   
+}
+
+.wrapper_s1_8 .column__3>div {
+  -webkit-transition: all 1s ease 2s; 
+  -webkit-backface-visibility: hidden;   
+}
+
+.wrapper_s1_8 .column__4>div {
+  -webkit-transition: all 1s ease 2.5s; 
+  -webkit-backface-visibility: hidden;   
+}
+
+.column_1 {
+  background-color: #9A481C;
+  left: 11px;
+}
+
+.column_2 {
+  background-color: #F3B607;
+  left: 24px;  
+}
+
+.column_3 {
+  background-color: #808080;
+  left: 37px;  
+}
+
+.column_4 {
+  background-color: #CCA48E;
+  left: 49px;  
+}
+
+.column_5 {
+  background-color: #C6E3F6;
+  left: 62px;  
+}
+
+.wrapper_s1_8.active .column__1 .column_1 {
+  height: 43px;
+
+}
+
+.wrapper_s1_8.active .column__1 .column_2 {
+  height: 83px;
+
+}
+
+.wrapper_s1_8.active .column__1 .column_3 {
+  height: 43px;
+
+}
+
+.wrapper_s1_8.active .column__2 .column_1 {
+  height: 132px;
+  
+}
+
+.wrapper_s1_8.active .column__2 .column_2 {
+  height: 174px;
+
+}
+
+.wrapper_s1_8.active .column__2 .column_3 {
+  height: 217px;
+  
+}
+
+.wrapper_s1_8.active .column__2 .column_4 {
+  height: 217px;
+
+}
+
+.wrapper_s1_8.active .column__2 .column_5 {
+  height: 174px;
+  
+}
+
+.wrapper_s1_8.active .column__3 .column_1 {
+  height: 263px;
+  
+}
+
+.wrapper_s1_8.active .column__3 .column_2 {
+  height: 217px;
+
+}
+
+.wrapper_s1_8.active .column__3 .column_3 {
+  height: 128px;
+  
+}
+
+.wrapper_s1_8.active .column__3 .column_4 {
+  height: 174px;
+
+}
+
+.wrapper_s1_8.active .column__3 .column_5 {
+  height: 132px;
+  
+}
+
+.column__4 .column_1 {
+  left:13px;
+}
+
+.wrapper_s1_8.active .column__4 .column_1 {
+  height: 85px;
+}
+
+.empty_s1_8 {
+  position: absolute;
+  opacity:0;
+  bottom: -6px;
+  left: 50px;
+  width: 769px;
+  height: 12px;
+  background-size: 100%;
+  background-image: url('../../content/img/qlaira/8/8_6.png');  
+}
+
+.wrapper_s1_8.active .empty_s1_8 {
+  opacity:1;
+  -webkit-transition: all 1s ease 3s; 
+  -webkit-backface-visibility: hidden;     
+}
