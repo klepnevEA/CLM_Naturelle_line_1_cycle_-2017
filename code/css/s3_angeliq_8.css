@@ -1,0 +1,48 @@
+.bg_s3_angeliq_8 {
+	background-image: url('../../content/img/angeliq/8/8_1.png')
+}
+
+.btn_s3_angeliq_8__1 {
+    top: 494px;
+    left: 48px;
+    width: 293px;
+    height: 80px;
+} 
+
+.btn_s3_angeliq_8__2 {
+    top: 494px;
+    left: 366px;
+    width: 293px;
+    height: 80px;
+} 
+
+.btn_s3_angeliq_8__3 {
+    top: 494px;
+    left: 684px;
+    width: 293px;
+    height: 80px;
+} 
+
+.popup_s3_angeliq_8__1 {
+    top: 130px;
+    left: 57px;
+    width: 906px;
+    height: 569px;
+		background-image: url('../../content/img/angeliq/8/8_2.png');	
+} 
+
+.popup_s3_angeliq_8__2 {
+    top: 140px;
+    left: 64px;
+    width: 906px;
+    height: 514px;
+		background-image: url('../../content/img/angeliq/8/8_3.png');	
+} 
+
+.popup_s3_angeliq_8__3 {
+    top: 140px;
+    left: 64px;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/8/8_4.png');	
+} 

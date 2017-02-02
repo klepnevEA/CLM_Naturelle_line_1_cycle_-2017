@@ -1,0 +1,19 @@
+.bg_s2_mirena_7 {
+	background-image: url('../../content/img/mirena/2_3/2_3_1.png')
+}
+
+.block_s2_mirena_7 {
+    position: absolute;
+    width: 272px;
+    height: 72px;
+    top: 382px;
+    left: 324px;
+    border: 3px solid #FF6425;
+    -webkit-transition: .3s 1s;
+    transition: .3s 1s;
+    opacity:0;
+}
+
+.block_s2_mirena_7.active {
+	opacity: 1;
+}

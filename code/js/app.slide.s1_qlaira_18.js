@@ -1,14 +1,12 @@
 	document.addEventListener('presentationInit', function(){
-		var slide = app.slide.s1_18 = {
+		var slide = app.slide.s1_qlaira_18 = {
 			elements: {
-				painContent: "#s1_18_2"
+				painContent: "#s1_qlaira_18_2"
 			},
 			onEnter:function(slideElement){
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
-				presentetion.prev('qlaira', 'qlaira_5', "s1_18");
-				submitSlideEnter('s1_18', '18', 18, '18', 'A WH_Beauty_1_cycle_2015');
-				
+     		presentetion.prev('qlaira', 'qlaira_5', "s1_qlaira_18");
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_18');

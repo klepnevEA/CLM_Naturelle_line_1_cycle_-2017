@@ -1,0 +1,33 @@
+.bg_s3_angeliq_7 {
+	background-image: url('../../content/img/angeliq/7/7_1.png')
+}
+
+.btn_s3_angeliq_7__1 {
+    top: 416px;
+    left: 395px;
+    width: 56px;
+    height: 56px;
+} 
+
+.btn_s3_angeliq_7__2 {
+    top: 416px;
+    left: 879px;
+    width: 56px;
+    height: 56px;
+} 
+
+.popup_s3_angeliq_7__1 {
+    top: 148px;
+    left: 70px;
+    width: 890px;
+    height: 500px;
+		background-image: url('../../content/img/angeliq/7/7_2.png');	
+} 
+
+.popup_s3_angeliq_7__2 {
+    top: 140px;
+    left: 154px;
+    width: 704px;
+    height: 506px;
+		background-image: url('../../content/img/angeliq/7/7_3.png');	
+} 

@@ -1,0 +1,111 @@
+.bg_s2_mirena_14 {
+	background-image: url('../../content/img/mirena/3/3_6/3_6_1.png')
+}
+
+.wraper_s2_mirena_14 {
+    position: absolute;
+		top: 220px;
+    left: 245px;
+    width: 624px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.wraper_s2_mirena_14 div {
+	position: absolute;
+	background-repeat: no-repeat;
+	opacity:1;
+}
+
+
+.column_s2_mirena_14 {
+
+	width: 56px;
+	height: 227px;
+	bottom: -100%;
+	background-position: 0 bottom;
+}
+
+
+
+.wraper_s2_mirena_14.active .column_s2_mirena_14 {
+	bottom: -2px;	
+}
+
+
+
+.column_s2_mirena_14_1 {
+	left: 0;
+	background-image: url('../../content/img/mirena/3/3_6/3_6_2.png');	
+} 
+
+.column_s2_mirena_14_2 {
+	left: 64px;
+	background-image: url('../../content/img/mirena/3/3_6/3_6_3.png');	
+} 
+
+.column_s2_mirena_14_3 {
+	left: 123px;
+	background-image: url('../../content/img/mirena/3/3_6/3_6_4.png');	
+} 
+
+.column_s2_mirena_14_4 {
+	left: 180px;
+	background-image: url('../../content/img/mirena/3/3_6/3_6_5.png');	
+} 
+
+.column_s2_mirena_14_5 {
+	left: 400px;
+	background-image: url('../../content/img/mirena/3/3_6/3_6_6.png');	
+}
+
+.column_s2_mirena_14_6 {
+	left: 468px;
+	background-image: url('../../content/img/mirena/3/3_6/3_6_7.png');	
+} 
+
+.column_s2_mirena_14_7 {
+	left: 535px;
+	background-image: url('../../content/img/mirena/3/3_6/3_6_8.png');	
+}  
+
+
+.wraper_s2_mirena_14 div.step_1 {
+	-webkit-transition: 1s ease 1s;	
+	transition: 1s ease 1s;
+}
+
+.wraper_s2_mirena_14 div.step_2 {
+	-webkit-transition: 1s ease 1.5s;	
+	transition: 1s ease 1.5s;
+}
+
+.wraper_s2_mirena_14 div.step_3 {
+	-webkit-transition: 1s ease 2s;	
+	transition: 1s ease 2s;
+}
+
+.wraper_s2_mirena_14 div.step_4 {
+	-webkit-transition: 1s ease 2.5s;	
+	transition: 1s ease 2.5s;
+}
+
+.wraper_s2_mirena_14 div.step_5 {
+	-webkit-transition: 1s ease 3s;	
+	transition: 1s ease 3s;
+}
+
+.wraper_s2_mirena_14 div.step_6 {
+	-webkit-transition: 1s ease 3.5s;	
+	transition: 1s ease 3.5s;
+}
+
+.wraper_s2_mirena_14 div.step_7 {
+	-webkit-transition: 1s ease 4s;	
+	transition: 1s ease 4s;
+}
+
+.wraper_s2_mirena_14.active div {
+	opacity:1;
+
+}

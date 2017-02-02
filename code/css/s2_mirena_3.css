@@ -1,0 +1,64 @@
+.bg_s2_mirena_3 {
+	background-image: url('../../content/img/mirena/1_2/1_2_1.png')
+}
+
+.btn_s2_mirena_3__1 {
+		width: 43px;
+    height: 43px;
+    top: 607px;
+    left: 669px;
+}
+
+.popup_s2_mirena_3__1 {
+	width: 752px;
+	height: 466px;
+	top: 125px;
+	left: 114px;
+	background-size: 100%; 
+	background-repeat: no-repeat; 
+}
+
+.popup_s2_mirena_3__1 {
+	background-image: url('../../content/img/mirena/1_2/1_2_2.png');        
+}
+
+.btn_s2_mirena_3__2 {
+    width: 238px;
+    height: 238px;
+    top: 417px;
+    left: 722px;
+}
+
+.wraper_video_1 {
+	position: absolute;
+	top:-500px;
+	left: 235px;
+    width: 533px;
+    height: 400px;
+    z-index: 9000;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: #000;
+}
+
+.wraper_video_1.active {
+	top:150px;	
+}
+
+#video_1 {
+	position: absolute;
+	width: 100%;
+}
+
+#stop_video_s4_2 {
+	position: absolute;
+	right: -20px;
+	top: -20px;
+	background-color: transparent;
+	border:0;
+	background-repeat: no-repeat;
+	width: 43px;
+	height: 43px;
+	z-index:9999;
+	background-image: url('../../content/img/close-button.png');  	
+} 

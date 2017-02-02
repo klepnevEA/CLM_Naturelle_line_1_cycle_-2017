@@ -1,0 +1,55 @@
+.bg_s2_mirena_22 {
+	background-image: url('../../content/img/mirena/4/4_7/4_7_1.png');
+}
+
+.wraper_s2_mirena_22 {
+    position: absolute;
+    top: 244px;
+    left: 277px;
+    width: 624px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.wraper_s2_mirena_22 div {
+	position: absolute;
+	background-repeat: no-repeat;
+	opacity:1;
+}
+
+
+.column_s2_mirena_22 {
+	width: 146px;
+	height: 140px;
+	bottom: -100%;
+	background-position: 0 bottom;
+}
+
+
+
+.wraper_s2_mirena_22.active .column_s2_mirena_22 {
+	bottom: 0px;	
+}
+
+
+
+.column_s2_mirena_22_1 {
+	left: 0;
+	background-image: url('../../content/img/mirena/4/4_7/4_7_3_1.png');	
+} 
+
+.column_s2_mirena_22_2 {
+	left: 284px;
+	background-image: url('../../content/img/mirena/4/4_7/4_7_3_2.png');	
+} 
+
+
+.wraper_s2_mirena_22 div.step_1 {
+	-webkit-transition: 1s ease 1s;	
+	transition: 1s ease 1s;
+}
+
+.wraper_s2_mirena_22 div.step_2 {
+	-webkit-transition: 1s ease 1.5s;	
+	transition: 1s ease 1.5s;
+}

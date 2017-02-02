@@ -1,14 +1,12 @@
 	document.addEventListener('presentationInit', function(){
-		var slide = app.slide.s1_10 = {
+		var slide = app.slide.s1_qlaira_10 = {
 			elements: {
-      		painContent: "#s1_10_2"
+      		painContent: "#s1_qlaira_10_2"
     		},
 			onEnter:function(slideElement){
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
-				presentetion.prev('qlaira', 'qlaira_3', "s1_10");	
-				submitSlideEnter('s1_10', '10', 10, '10', 'A WH_Beauty_1_cycle_2015');
-				
+     		presentetion.prev('qlaira', 'qlaira_3', "s1_qlaira_10");
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_10');
@@ -18,16 +16,16 @@
 	});
 
 
-function tapWindow1_10(n) {
-	var a = document.getElementById('window' + n);
-	var b = document.getElementsByClassName('tapsWindow1-10');
-	for(var i=0; i<b.length; i++){
-    b[i].addClass('hiddenWindow');	
-	}	
+// function tapWindow1_10(n) {
+// 	var a = document.getElementById('window' + n);
+// 	var b = document.getElementsByClassName('tapsWindow1-10');
+// 	for(var i=0; i<b.length; i++){
+//     b[i].addClass('hiddenWindow');	
+// 	}	
 	
-	a.removeClass('hiddenWindow');	
+// 	a.removeClass('hiddenWindow');	
 	
-};
+// };
 
 
 

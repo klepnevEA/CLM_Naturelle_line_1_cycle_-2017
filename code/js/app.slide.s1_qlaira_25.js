@@ -1,13 +1,12 @@
 	document.addEventListener('presentationInit', function(){
-		var slide = app.slide.s1_25 = {
+		var slide = app.slide.s1_qlaira_25 = {
 			elements: {
-      		painContent: "#s1_25_2"
+      		painContent: "#s1_qlaira_25_2"
     		},
 			onEnter:function(slideElement){
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
-				presentetion.prev('qlaira', 'qlaira_6', "s1_25");
-				
+     		presentetion.prev('qlaira', 'qlaira_6', "s1_qlaira_25");
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_25');

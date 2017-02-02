@@ -1,0 +1,52 @@
+.bg_s2_mirena_12 {
+	background-image: url('../../content/img/mirena/3/3_4/3_4_1.png');
+}
+
+.wraper_s2_mirena_12 {
+    position: absolute;
+    top: 246px;
+    left: 500px;
+}
+
+.wraper_s2_mirena_12 div {
+	position: absolute;
+	width: 444px;
+	height: 57px;
+	left: 50px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	opacity:0;
+}
+
+.wraper_s2_mirena_12 div.step_1 {
+	top: 0;
+	background-image: url('../../content/img/mirena/3/3_4/3_4_2.png');
+	-webkit-transition: 1s ease 1s;	
+	transition: 1s ease 1s;
+}
+
+.wraper_s2_mirena_12 div.step_2 {
+	top: 83px;	
+	background-image: url('../../content/img/mirena/3/3_4/3_4_3.png');
+	-webkit-transition: 1s ease 1.5s;	
+	transition: 1s ease 1.5s;
+}
+
+.wraper_s2_mirena_12 div.step_3 {
+	top: 160px;
+	background-image: url('../../content/img/mirena/3/3_4/3_4_4.png');
+	-webkit-transition: 1s ease 2s;	
+	transition: 1s ease 2s;
+}
+
+.wraper_s2_mirena_12 div.step_4 {
+	top: 245px;	
+	background-image: url('../../content/img/mirena/3/3_4/3_4_5.png');
+	-webkit-transition: 1s ease 2.5s;	
+	transition: 1s ease 2.5s;
+}
+
+.wraper_s2_mirena_12.active div {
+	opacity:1;
+	left: 0;
+}

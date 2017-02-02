@@ -7,9 +7,7 @@
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
 				document.getElementById('animation_s1_9').addClass('active');				
-				presentetion.prev('qlaira', 'qlaira_2', "s1_9");	
-				submitSlideEnter('s1_9', '9', 9, '9', 'A WH_Beauty_1_cycle_2015');
-				
+     		presentetion.prev('qlaira', 'qlaira_3', "s1_qlaira_9");	
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_9');

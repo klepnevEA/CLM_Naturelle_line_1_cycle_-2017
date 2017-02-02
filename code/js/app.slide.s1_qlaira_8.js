@@ -8,9 +8,7 @@
 				util.addClass(slide.element.painContent, 'active');
 
 				document.getElementById('wrapper_s1_8').addClass('active');
-				presentetion.prev('qlaira', 'qlaira_2', "s1_8");	
-				submitSlideEnter('s1_8', '8', 8, '8', 'A WH_Beauty_1_cycle_2015');
-				
+     		presentetion.prev('qlaira', 'qlaira_3', "s1_qlaira_8");
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_8');

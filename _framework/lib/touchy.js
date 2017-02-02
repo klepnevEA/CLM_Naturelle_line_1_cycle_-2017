@@ -1,18 +1,21 @@
 /**
  * touchy.js
  *
- * A JavaScript microlibrary for UI interaction on Wekbit mobile and desktop.
+ * A JavaScript microlibrary for UI interaction on mobile and desktop.
  * Dispatches custom events to be used when normal events does not suffice.
- * NOTE: stopPropagation() will not work on these events, use touchy.stop(event) instead.
+ *
+ * BROWSER SUPPORT: Safari, Chrome, Firefox, IE9, iOS4+, Android 4+
  *
  * @author     Stefan Liden
- * @version    0.2
- * @copyright  Copyright 2011 Stefan Liden
- * @license    Dual licensed under MIT and GPL
+ * @version    1.1.1
+ * @copyright  Copyright 2011-2015 Stefan Liden
+ * @license    MIT
  */
 
 (function() {
+
   var d = document,
+      touchy,
       isTouch = 'ontouchstart' in window,
       doubleTap = false,
       touchEvents = {
@@ -25,121 +28,154 @@
         move: 'mousemove',
         end: 'mouseup'
       },
-      evts = isTouch ? touchEvents : mouseEvents,
-      customEvents = {
-        tap: '',
-        doubleTap: '',
-        twoFingerTap: '',
-        longTouch: '',
-        swipeleft: '',
-        swiperight: '',
-        swipeup: '',
-        swipedown: ''
+      // http://jessefreeman.com/articles/from-webkit-to-windows-8-touch-events/
+      msPointerEvents = {
+        start: 'MSPointerDown',
+        move: 'MSPointerMove',
+        end: 'MSPointerUp'
       },
-      swipeEvents = ['tap', 'doubleTap', 'twoFingerTap', 'longTouch', 'swipeleft', 'swiperight', 'swipeup', 'swipedown'];
-  
-  // Create the custom events to be dispatched
-  function createSwipeEvents () {
-    swipeEvents.forEach(function(evt) {
-      customEvents[evt] = d.createEvent('UIEvents');
-      customEvents[evt].initEvent(evt, true, true);
-    });
-  }
-  // Fix for stopPropagation not working in Webkit and Opera for custom events
-  function stopBubbling	 (event) {
-    event.cancelBubble = true;
-    setTimeout(function() {
-      event.cancelBubble = false;
-	  
-    },0);
-  }
-  function onStart (event) { 
+      // https://coderwall.com/p/mfreca/ie-11-in-windows-8-1-pointer-events-changes
+      msIEElevenPointerEvents = {
+        start: 'pointerdown',
+        move: 'pointermove',
+        end: 'pointerup'
+      },
+      evts = isTouch ? touchEvents : setEventType();
 
+  // If this is not touch, is it a MS Pointer or a regular mouse device?
+  function setEventType () {
+    if(window.navigator.pointerEnabled) return msIEElevenPointerEvents;
+    return window.navigator.msPointerEnabled ? msPointerEvents : mouseEvents;
+  }
+
+  // Dispatch new event
+  function dispatchEvent (target, event) {
+    var evt = d.createEvent('UIEvents');
+
+    evt.initEvent(event, true, true);
+    target.dispatchEvent(evt);
+  }
+
+  function onStart (event) {
     var startTime = new Date().getTime(),
         touch = isTouch ? event.touches[0] : event,
         nrOfFingers = isTouch ? event.touches.length : 1,
-        startX, startY, hasMoved;
+        startX, startY;
+    var hasMoved = false;
+        
+    // Prevent panning and zooming (IE)
+    if (event.preventManipulation) event.preventManipulation();
+    
+    // See blog.msdn.com/b/ie/20111/10/19/handling-multi-touch-and-mouse-input-in-all-browsers.aspx
+    if (typeof event.target.style.msTouchAction !== 'undefined') event.target.style.msTouchAction = 'none';
 
     startX = touch.clientX;
     startY = touch.clientY;
-    hasMoved = false;
 
     d.addEventListener(evts.move, onMove, false);
     d.addEventListener(evts.end, onEnd, false);
-    
-    function onMove (event) {
-      hasMoved = true;
-      nrOfFingers = isTouch ? event.touches.length : 1;
+
+    function onMove (e) {
+      if (!hasMoved) {
+        hasMoved = true;
+        nrOfFingers = isTouch ? e.touches.length : 1;
+      }
     }
-    function onEnd (event) {
-	
-     var endX, endY, diffX, diffY,
-          ele = event.target,
-          customEvent = '',
+
+    function onEnd (e) {
+      var endX, endY, diffX, diffY,
+          ele = e.target,
+          changed = isTouch ? e.changedTouches[0] : e,
+          swipeEvent = 'swipe',
           endTime = new Date().getTime(),
           timeDiff = endTime - startTime;
-      touch = isTouch ? touch : event;
+          
+      // Fix for IE always triggering onMove and not to count very small moves
+      if (hasMoved) {
+        endX = changed.clientX;
+        endY = changed.clientY;
+        diffX = endX-startX;
+        diffY = endY-startY;
+        // If the move is less than 10px, then we don't consider it a move
+        if (Math.abs(diffX) < 10 && Math.abs(diffY) < 10) {
+          hasMoved = false;
+        }
+      }
 
       if (nrOfFingers === 1) {
         if (!hasMoved) {
-          if (timeDiff <= 1000) {
-		  
+          if (timeDiff <= 500) {
             if (doubleTap) {
-              ele.dispatchEvent(customEvents.doubleTap);
+              dispatchEvent(ele, 'doubleTap');
             }
             else {
-              ele.dispatchEvent(customEvents.tap);
+              dispatchEvent(ele, 'tap');
               doubleTap = true;
             }
             resetDoubleTap();
           }
           else {
-            ele.dispatchEvent(customEvents.longTouch);
+            dispatchEvent(ele, 'longTouch');
           }
         }
         else {
-          if (timeDiff < 1000 ) {
-            endX = touch.clientX;
-            endY = touch.clientY;
-            diffX = endX-startX;
-            diffY = endY-startY;
-	        dirX = diffX > 1 ? 'right' : 'left';
-            dirY = diffY > 1 ? 'down' : 'up';
+          if (timeDiff < 500) {
+            endX = endX || changed.clientX;
+            endY = endY || changed.clientY;
+            diffX = diffX || endX-startX;
+            diffY = diffY || endY-startY;
+            dirX = diffX > 0 ? 'right' : 'left';
+            dirY = diffY > 0 ? 'down' : 'up';
             absDiffX = Math.abs(diffX);
             absDiffY = Math.abs(diffY);
-            
+
             if (absDiffX >= absDiffY) {
-              customEvent = 'swipe' + dirX;
+              swipeEvent += dirX;
             }
             else {
-              customEvent = 'swipe' + dirY;
+              swipeEvent += dirY;
             }
-            
-            ele.dispatchEvent(customEvents[customEvent]);
+
+            dispatchEvent(ele, swipeEvent);
+          }
+          else {
+            dispatchEvent(ele, 'drop');
           }
         }
       }
       else if (nrOfFingers === 2) {
-        ele.dispatchEvent(customEvents.twoFingerTap);
+        dispatchEvent(ele, 'twoFingerTap');
+      }
+      else if (nrOfFingers === 3) {
+        dispatchEvent(ele, 'threeFingerTap');
       }
 
       d.removeEventListener(evts.move, onMove, false);
       d.removeEventListener(evts.end, onEnd, false);
     }
   }
-  
+
   function resetDoubleTap() {
     setTimeout(function() {doubleTap = false;}, 400);
   }
   
+  // Previous fix for stopPropagation. 
+  // DEPRECATED - Use "event.stopPropagation()" instead
+  function stopBubbling (event) {
+    event.cancelBubble = true;
+    setTimeout(function() {
+      event.cancelBubble = false;
+    },0);
+    if (window.console && window.console.warning) console.warning("touchy.stop is deprecated. Please use event.stopPropagation instead.");
+  }
 
-  createSwipeEvents();
   d.addEventListener(evts.start, onStart, false);
 
   // Return an object to access useful properties and methods
-  return window.touchy = {
+  window.touchy = {
     isTouch: isTouch,
     stop: stopBubbling,
-    events: evts
-  }
-})();
+    events: evts,
+    version: "1.1.1"
+  };
+}());

@@ -51,66 +51,44 @@ nav_dir = 's8_1s';
 
 var prew = {
 	"qlaira": {
-		"qlaira_1": ["s1_1"],
-		"qlaira_2": ["s1_2","s1_3","s1_4","s1_5","s1_6","s1_7","s1_8","s1_9"],
-		"qlaira_3": ["s1_10","s1_11","s1_12"],
-		"qlaira_4": ["s1_13","s1_14","s1_15","s1_16","s1_17"],
-		"qlaira_5": ["s1_18","s1_19","s1_20"],
-		"qlaira_6": ["s1_21","s1_22","s1_23","s1_24","s1_25","s1_26","s1_27"],
-		"qlaira_7": ["s1_28","s1_29","s1_30","s1_31","s1_32","s1_33","s1_34","s1_35"],														
+		"qlaira_1": ["s1_qlaira_1"],
+		"qlaira_2": ["s1_qlaira_2","s1_qlaira_3","s1_qlaira_4","s1_qlaira_5"],
+		"qlaira_3": ["s1_qlaira_6","s1_qlaira_7","s1_qlaira_8","s1_qlaira_9","s1_qlaira_10","s1_qlaira_11","s1_qlaira_12","s1_qlaira_13"],
+		"qlaira_4": ["s1_qlaira_14","s1_qlaira_15","s1_qlaira_16"],
+		"qlaira_5": ["s1_qlaira_17","s1_qlaira_18","s1_qlaira_19","s1_qlaira_20","s1_qlaira_21","s1_qlaira_22"],
+		"qlaira_6": ["s1_qlaira_23","s1_qlaira_24","s1_qlaira_25"],
+		"qlaira_7": ["s1_qlaira_26","s1_qlaira_27","s1_qlaira_28","s1_qlaira_29","s1_qlaira_30","s1_qlaira_31","s1_qlaira_32","s1_qlaira_33","s1_qlaira_34","s1_qlaira_35","s1_qlaira_36"],	
+		"qlaira_8": ["s1_qlaira_37","s1_qlaira_38","s1_qlaira_39","s1_qlaira_40","s1_qlaira_41","s1_qlaira_42","s1_qlaira_43","s1_qlaira_44","s1_qlaira_45","s1_qlaira_46","s1_qlaira_47","s1_qlaira_48","s1_qlaira_49","s1_qlaira_50","s1_qlaira_51"],															
 		"class": "qlaira",
 		"name": "qlaira",
 		"prevId": "s1_1s"	
 	},
-	"vis": {
-		"vis_1": ["s2_1"],
-		"vis_2": ["s2_2","s2_3","s2_4","s2_5"],		
-		"vis_3": ["s2_6","s2_7","s2_8"],
-		"vis_4": ["s2_9","s2_10","s2_11","s2_12","s2_13"],	
-		"vis_5": ["s2_14","s2_15","s2_16"],
-		"vis_6": ["s2_17","s2_18"],
-		"vis_7": ["s2_19","s2_20","s2_21"],	
-		"vis_8": ["s2_22","s2_23","s2_24"],	
-		"vis_9": ["s2_25","s2_26","s2_27","s2_28","s2_29"],
-		"vis_10": ["s2_30","s2_31","s2_32","s2_33","s2_34","s2_35","s2_36","s2_37"],
-		"class": "vis",
-		"name": "vis",
-		"prevId": "s2_1s"												
-	},
-	"flex": {
-		"flex_1": ["s3_1"],
-		"flex_2": ["s3_2"],		
-		"flex_3": ["s3_3"],
-		"flex_4": ["s3_4","s3_5","s3_6"],	
-		"flex_5": ["s3_7","s3_8","s3_9","s3_10","s3_11"],
-		"flex_6": ["s3_12","s3_13","s3_14","s3_15"],
-		"flex_7": ["s3_16","s3_17"],	
-		"flex_8": ["s3_18"],	
-		"flex_9": ["s3_19","s3_20","s3_21","s3_22","s3_23","s3_24","s3_25","s3_26","s3_27","s3_28","s3_29","s3_30","s3_34","s3_35","s3_36","s3_37","s3_38","s3_39","s3_40","s3_41","s3_42"],
-		"flex_10": ["s3_31"],
-		"flex_11": ["s3_32"],
-		"flex_12": ["s3_33"],		
-		"class": "flex",
-		"name": "flex",
-		"prevId": "s3_1s"	
-	},	
-	"mir": {
-		"mir_1": ["s4_1"],
-		"mir_2": ["s4_2","s4_3"],		
-		"mir_3": ["s4_4"],
-		"mir_4": ["s4_5","s4_6","s4_7","s4_8","s4_9","s4_10"],	
-		"mir_5": ["s4_11","s4_12","s4_13","s4_14","s4_15","s4_16"],
-		"mir_6": ["s4_17","s4_18","s4_19","s4_20"],
-		"mir_7": ["s4_21","s4_22","s4_23","s4_24","s4_25","s4_26","s4_27","s4_28","s4_29","s4_30","s4_31","s4_32","s4_33","s4_34","s4_35"],	
-		"mir_8": ["s4_36","s4_37","s4_38","s4_39","s4_40","s4_41"],	
-		"mir_9": ["s4_42"],
-		"mir_10": ["s4_43"],		
+
+	"mirena": {
+		"mirena_1": ["s2_mirena_1"],
+		"mirena_2": ["s2_mirena_2","s2_mirena_3","s2_mirena_4"],		
+		"mirena_3": ["s2_mirena_5","s2_mirena_6","s2_mirena_7","s2_mirena_8"],
+		"mirena_4": ["s2_mirena_9","s2_mirena_10","s2_mirena_11","s2_mirena_12","s2_mirena_13","s2_mirena_14","s2_mirena_15"],	
+		"mirena_5": ["s2_mirena_16","s2_mirena_17","s2_mirena_18","s2_mirena_19","s2_mirena_20","s2_mirena_21","s2_mirena_22","s2_mirena_23","s2_mirena_24"],
 		"class": "mir",
 		"name": "mir",
-		"prevId": "s4_1s"	
+		"prevId": "s2_1s"	
+	},
+
+	"angeliq": {
+		"angeliq_1": ["s3_angeliq_1","s3_angeliq_2"],
+		"angeliq_2": ["s3_angeliq_3","s3_angeliq_4","s3_angeliq_5","s3_angeliq_6"],		
+		"angeliq_3": ["s3_angeliq_7"],
+		"angeliq_4": ["s3_angeliq_8"],	
+		"angeliq_5": ["s3_angeliq_9","s3_angeliq_10","s3_angeliq_11","s3_angeliq_12","s3_angeliq_13","s3_angeliq_14","s3_angeliq_15"],
+		"angeliq_6": ["s3_angeliq_16","s3_angeliq_17","s3_angeliq_18","s3_angeliq_19"],
+		"angeliq_7": ["s3_angeliq_20","s3_angeliq_21"],
+		"angeliq_8": ["s3_angeliq_22"],
+		"angeliq_9": ["s3_angeliq_23"],		
+		"class": "ang",
+		"name": "ang",
+		"prevId": "s3_1s"	
 	}
-
-
 
 }
 
@@ -282,17 +260,14 @@ var presentetion = {
 				menu.innerHTML = '<nav id="menuTop" class="">\
 				<ul id="menu-1" class="menu_top menu_Ang">\
 					<li class="home-menu menu_top_0" onclick="app.goTo(\'s1s\', \'s1\')"> <span><img onclick="app.goTo(\'s1s\', \'s1\')" src="content/img/menu/home-button.png"></span></li>\
-					<li class="menu_top_1" onclick="app.goTo(\'s1_1s\', \'s1_1\')"><span>Схемы<br>назначения</span></li>\
-					<li class="menu_top_2" onclick="app.goTo(\'s1_1s\', \'s1_2\')"><span>Эффективность</span></li>\
-					<li class="menu_top_3" onclick="app.goTo(\'s1_1s\', \'s1_3\')"><span>Безопасность</span></li>\
-					<li class="menu_top_4" onclick="app.goTo(\'s1_1s\', \'s1_7\')"><span>Качество<br> жизни</span></li>\
-					<li class="menu_top_5" onclick="app.goTo(\'s1_1s\', \'s1_8\')"><span>Дополнительные<br>преимущества</span></li>\
-					<li class="menu_top_6" onclick="app.goTo(\'s1_1s\', \'s1_17\')"><span>Анжелик<sup>&reg;</sup> <br>vs Фемостон</span></li>\
-					<li class="menu_top_7" onclick="app.goTo(\'s1_1s\', \'s1_18\')"><span>Кому <br>Анжелик<sup>&reg;</sup></span></li>\
-					<li class="menu_top_8" onclick="app.goTo(\'s1_1s\', \'s1_21\')"><span>Ультранизкая<br>доза</span></li>\
-					<li class="menu_top_9" onclick="app.goTo(\'s1_1s\', \'s1_25\')"><span>Кому<br>Анжелик<sup>&reg;</sup> Микро</span></li>\
-					<li class="menu_top_10" onclick="app.goTo(\'s1_1s\', \'s1_35\')"><span>Ультра доза vs<br>Фитоэстрогены</span></li>\
-					<li class="menu_top_11" onclick="app.goTo(\'s1_1s\', \'s1_36\')"><span>Длительность</span></li>\
+					<li class="menu_top_1" onclick="app.goTo(\'s3_1s\', \'s3_angeliq_1\')"><span>Профили<br>эффективности</span></li>\
+					<li class="menu_top_2" onclick="app.goTo(\'s3_1s\', \'s3_angeliq_3\')"><span>Профили<br>безопасности</span></li>\
+					<li class="menu_top_3" onclick="app.goTo(\'s3_1s\', \'s3_angeliq_7\')"><span>Качество<br>жизни</span></li>\
+					<li class="menu_top_4" onclick="app.goTo(\'s3_1s\', \'s3_angeliq_8\')"><span>Анжелик<sup>&reg;</sup><br> vs Фемостон</span></li>\
+					<li class="menu_top_5" onclick="app.goTo(\'s3_1s\', \'s3_angeliq_9\')"><span>Кому Анжелик<sup>&reg;</sup><br>и Анжелик® Микро</span></li>\
+					<li class="menu_top_6" onclick="app.goTo(\'s3_1s\', \'s3_angeliq_16\')"><span>Ультранизкая <br>доза</span></li>\
+					<li class="menu_top_7" onclick="app.goTo(\'s3_1s\', \'s3_angeliq_20\')"><span>Длительность</span></li>\
+					<li class="menu_top_8" onclick="app.goTo(\'s3_1s\', \'s3_angeliq_22\')"><span>Дополнительные<br>преимущества</span></li>\
 					</ul></nav>';
 			};
 			if(product == 'Ang_M') {
@@ -381,35 +356,37 @@ function scrolNav() {
 
 };
 
-/*верхнее меню*/
+scrolNav();	
+
+
 
 /*запуск / остановка видео*/
 
 function playVideo(video){
-	document.getElementById('video_' + video).style.cssText="display:block;";
-	document.getElementById('stop_video_' + video).style.cssText="display:block;";
-	document.getElementById('video_' + video).play();
+	document.getElementById('wraper_' + video).classList.add('active');
+	document.getElementById(video).play();
 };	
 
 
 function stopVideo(video){
-	document.getElementById('video_' + video).pause();
-	document.getElementById('video_' + video).style.cssText="display:none";
-	document.getElementById('stop_video_' + video).style.cssText="display:none;";
+	document.getElementById(video).pause();
+	document.getElementById('wraper_' + video).classList.remove('active');
 };
 
 	
 
-/*счетчик колличества символов*/
-function textareaLength(val){
-	var maxLength = $('#comment' + val).attr('maxlength'); 
-	$('#comment' + val).on('keyup', function() {
-		var curLength = $('#comment' + val).val().length;
-		$("#free_symbols" + val).text(maxLength - curLength);
-	});
 
-};
+/*функция навигации с возможностью возврата назад*/
+var thisSlise = ''
+function goSlide(section, slideGo) {
+		thisSlise = event.target.closest('article').id;
+		console.log(thisSlise);
+		app.goTo(section, slideGo);
+}
 
+function goBack(section, slideGo) {
+		app.goTo(section, slideGo);
+}
 
 // /*отправка статистики*/
 // var response_value = "",

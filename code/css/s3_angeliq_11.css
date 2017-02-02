@@ -1,0 +1,144 @@
+.bg_s3_angeliq_11 {
+	background-image: url('../../content/img/angeliq/11/11_1.png')
+}
+
+.btn_s3_angeliq_11__1 {
+    top: 649px;
+    left: 25px;
+    width: 56px;
+    height: 56px;
+} 
+
+.btn_s3_angeliq_11__2 {
+    top: 343px;
+    left: 28px;
+    width: 332px;
+    height: 56px;
+} 
+
+.btn_s3_angeliq_11__3 {
+    top: 419px;
+    left: 28px;
+    width: 332px;
+    height: 56px;
+} 
+
+.btn_s3_angeliq_11__4 {
+    top: 495px;
+    left: 28px;
+    width: 332px;
+    height: 56px;
+} 
+
+.btn_s3_angeliq_11__5 {
+    top: 571px;
+    left: 28px;
+    width: 332px;
+    height: 56px;
+} 
+
+
+/*кнопки тапов*/
+.btn_tap_s3_angeliq_11__1 {
+    top: 299px;
+    left: 31px;
+    width: 50px;
+    height: 50px;
+}
+
+.btn_tap_s3_angeliq_11__2 {
+    top: 299px;
+    right: 31px;
+    width: 50px;
+    height: 50px;
+}
+
+/*попапы*/
+
+.popup_s3_angeliq_11__1 {
+    top: 530px;
+    left: 175px;
+    width: 688px;
+    height: 224px;
+		background-image: url('../../content/img/angeliq/11/11_2.png');	
+} 
+
+.popup_s3_angeliq_11__2 {
+    top: 100px;
+    left: 64px;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/11/11_3.png');	
+} 
+
+.popup_s3_angeliq_11__3 {
+    top: 100px;
+    left: 64px;
+    width: 906px;
+    height: 650px    
+}
+
+.tap_s3_angeliq_11__3_1 {
+    top: 0;
+    left: 0;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/11/11_4.png');		
+} 
+
+.tap_s3_angeliq_11__3_2 {
+    top: 0;
+    left: 0;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/11/11_5.png');		
+} 
+ 
+
+.popup_s3_angeliq_11__4 {
+    top: 100px;
+    left: 64px;
+    width: 906px;
+    height: 650px;   
+} 
+
+.tap_s3_angeliq_11__4_1 {
+    top: 0;
+    left: 0;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/11/11_6.png');	
+}
+
+.tap_s3_angeliq_11__4_2 {
+    top: 0;
+    left: 0;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/11/11_7.png');	
+}
+
+.tap_s3_angeliq_11__4_3 {
+    top: 0;
+    left: 0;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/11/11_8.png');	
+}
+
+.tap_s3_angeliq_11__4_4 {
+    top: 0;
+    left: 0;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/11/11_9.png');	
+}
+
+
+.popup_s3_angeliq_11__5 {
+    top: 100px;
+    left: 64px;
+    width: 906px;
+    height: 650px;
+		background-image: url('../../content/img/angeliq/11/11_10.png');	
+} 

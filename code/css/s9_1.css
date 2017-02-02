@@ -1,0 +1,75 @@
+.bg_literature {
+  background-image: url('../../content/img/2017_Title_2_2.png');
+}
+
+.literature_1 {
+  background-image: url('../../content/img/mirena/Title_2_7.png');
+}
+
+.literature_2 {
+  background-image: url('../../content/img/qlaira/52.png');
+}
+
+.literature_3 {
+  background-image: url('../../content/img/Title_2_6.png');
+}
+
+.literature_4 {
+  background-image: url('../../content/img/Title_2_5.png');
+}
+
+.instr_s9_1 {
+    width: 988px;
+    height: 720px;
+    top: 16px;
+    left: 16px;
+    background-repeat: no-repeat;
+}
+
+
+
+.literature_btn  {
+   
+}
+
+.literature_btn1  {
+    width: 273px;
+    height: 70px;
+    left: 196px;
+     top: 244px; 
+}
+
+.literature_btn2  {
+    width: 273px;
+    height: 70px;
+    left: 196px;
+     top: 460px; 
+} 
+
+.literature_btn3  {
+    width: 273px;
+    height: 70px;
+    left: 515px;
+     top: 244px; 
+}
+
+.literature_btn4  {
+    width: 273px;
+    height: 70px;
+    left: 515px;
+     top: 460px; 
+}
+
+.close_popup {
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.literature_btn_back {
+  top: 635px;
+  left: 21px;
+  width: 60px;
+  height: 60px; 
+}

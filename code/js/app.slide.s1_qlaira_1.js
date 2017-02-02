@@ -4,12 +4,11 @@
       		painContent: "#s1_qlaira_1_2"
     		},
 			onEnter:function(slideElement){
-				console.log('!!!');	
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
 
-				presentetion.bgStyle('Qlaira_Vita', 'bg_s1_', 35);
-				presentetion.prev('qlaira', 'qlaira_1', "s1_1");					
+				// presentetion.bgStyle('Qlaira_Vita', 'bg_s1_', 35);
+				presentetion.prev('qlaira', 'qlaira_1', "s1_qlaira_1");					
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_1');

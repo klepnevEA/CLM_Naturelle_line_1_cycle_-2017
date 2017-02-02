@@ -1,0 +1,141 @@
+.bg_s2_mirena_20 {
+	background-image: url('../../content/img/mirena/4/4_5/4_5_1.png');
+}
+
+.wraper_s2_mirena_20 {
+    position: absolute;
+    top: 441px;
+    left: 221px;
+}
+
+.wraper_s2_mirena_20 div {
+	position: absolute;
+	width: 23px;
+	height: 0px;
+	bottom: 0px;
+	background-color: #008a9a;
+}
+
+.wraper_s2_mirena_20 div.arrows {
+    width: 497px;
+    height: 282px;
+    left: 67px;
+    bottom: -58px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-color: transparent;	
+	background-image: url('../../content/img/mirena/4/4_5/arrows.png');	
+}
+
+
+
+.wraper_s2_mirena_20 div.step_1 {
+	left: 0;
+	-webkit-transition: 1s ease 1s;	
+	transition: 1s ease 1s;
+}
+
+.wraper_s2_mirena_20 div.step_2 {
+	left: 69px;	
+	-webkit-transition: 1s ease 1.5s;	
+	transition: 1s ease 1.5s;
+}
+
+.wraper_s2_mirena_20 div.step_3 {
+	left: 138px;
+	-webkit-transition: 1s ease 2s;	
+	transition: 1s ease 2s;
+}
+
+.wraper_s2_mirena_20 div.step_4 {
+	left: 208px;
+	-webkit-transition: 1s ease 2.5s;	
+	transition: 1s ease 2.5s;
+}
+
+.wraper_s2_mirena_20 div.step_5 {
+	left: 278px;
+	-webkit-transition: 1s ease 3s;	
+	transition: 1s ease 3s;
+}
+
+.wraper_s2_mirena_20 div.step_6 {
+	left: 348px;
+	-webkit-transition: 1s ease 3.5s;	
+	transition: 1s ease 3.5s;
+}
+
+.wraper_s2_mirena_20 div.step_7 {
+	left: 418px;
+	-webkit-transition: 1s ease 4s;	
+	transition: 1s ease 4s;
+}
+
+.wraper_s2_mirena_20 div.step_8 {
+	left: 488px;
+	-webkit-transition: 1s ease 4.5s;	
+	transition: 1s ease 4.5s;
+}
+
+.wraper_s2_mirena_20 div.step_9 {
+	left: 558px;
+	-webkit-transition: 1s ease 5s;	
+	transition: 1s ease 5s;
+}
+
+.wraper_s2_mirena_20 div.step_10 {
+	left: 628px;
+	-webkit-transition: 1s ease 5.5s;	
+	transition: 1s ease 5.5s;
+}
+
+.wraper_s2_mirena_20 div.step_11 {
+	opacity:0;
+	-webkit-transition: 1s ease 6s;	
+	transition: 1s ease 6s;
+}
+
+
+.wraper_s2_mirena_20.active div.step_1 {
+	height:157px; 
+}
+
+.wraper_s2_mirena_20.active div.step_2 {
+	height:52px; 
+}
+
+.wraper_s2_mirena_20.active div.step_3 {
+	height:41px; 
+}
+
+.wraper_s2_mirena_20.active div.step_4 {
+	height:39px; 
+}
+
+.wraper_s2_mirena_20.active div.step_5 {
+	height:33px; 
+}
+
+.wraper_s2_mirena_20.active div.step_6 {
+	height:22px; 
+}
+
+.wraper_s2_mirena_20.active div.step_7 {
+	height:17px; 
+}
+
+.wraper_s2_mirena_20.active div.step_8 {
+	height:1px; 
+}
+
+.wraper_s2_mirena_20.active div.step_9 {
+	height:2px; 
+}
+
+.wraper_s2_mirena_20.active div.step_10 {
+	height:1px; 
+}
+
+.wraper_s2_mirena_20.active div.step_11 {
+	opacity:1;
+}
